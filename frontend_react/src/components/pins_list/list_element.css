@@ -1,0 +1,16 @@
+.list-element {
+    list-style: none;
+    display: flex;
+
+    padding: 10px;
+
+    color: var(--secondary-foreground);
+}
+
+.list-element:hover {
+    background-color: var(--secondary-background-accent);
+}
+
+.element-active {
+    background-color: var(--secondary-background-accent);
+}

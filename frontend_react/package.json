@@ -1,0 +1,72 @@
+{
+  "name": "travel-companion",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@googlemaps/markerclusterer": "^2.0.15",
+    "@googlemaps/react-wrapper": "^1.1.35",
+    "@iconify/react": "^4.0.1",
+    "@react-google-maps/api": "^2.18.1",
+    "@react-oauth/google": "^0.6.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.2.3",
+    "gapi-script": "^1.2.0",
+    "h3-js": "^4.1.0",
+    "h3-reactnative": "github:realPrimoh/h3-reactnative",
+    "jquery": "^3.6.1",
+    "loader-utils": ">=3.2.1",
+    "nth-check": ">=2.0.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.6.0",
+    "react-cookie": "^4.1.1",
+    "react-dom": "^18.2.0",
+    "react-navigation": "^4.4.4",
+    "react-router-dom": "^6.4.4",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4",
+    "workbox-background-sync": "^6.5.4",
+    "workbox-broadcast-update": "^6.5.4",
+    "workbox-cacheable-response": "^6.5.4",
+    "workbox-core": "^6.5.4",
+    "workbox-expiration": "^6.5.4",
+    "workbox-google-analytics": "^6.5.4",
+    "workbox-navigation-preload": "^6.5.4",
+    "workbox-precaching": "^6.5.4",
+    "workbox-range-requests": "^6.5.4",
+    "workbox-routing": "^6.5.4",
+    "workbox-strategies": "^6.5.4",
+    "workbox-streams": "^6.5.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "start-sw": "http-server ./build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@iconify/icons-ic": "^1.2.13",
+    "@iconify/icons-material-symbols": "^1.2.25",
+    "@iconify/react": "^4.0.1",
+    "@ubilabs/google-maps-react-hooks": "^2.0.2",
+    "http-server": "^14.1.1"
+  }
+}

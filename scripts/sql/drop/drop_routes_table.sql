@@ -1,0 +1,1 @@
+DROP TABLE `codenome_db`.`routes`

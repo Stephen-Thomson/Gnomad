@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+
+scp -r backend_api/GnomadAPI/bin/Release/net6.0/publish aws:/home/ubuntu
+ssh -t aws "chmod +x publish/GnomadAPI"
+scp -r frontend_react/build aws:/home/ubuntu
+ssh -t aws "sudo rm -r /var/www/html/* && sudo cp -r ./build/* /var/www/html && rm -r ./build"

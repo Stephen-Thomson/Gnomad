@@ -1,0 +1,55 @@
+#settings-page 
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+  
+    width: min(800px, 90%);
+    height: min(500px, 90%);
+  
+    padding: 10px;
+    border-radius: 4px;
+  
+    background: var(--gradient-background);
+    color: var(--primary-foreground);
+    z-index: 999;
+}
+
+.split-section 
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+    height: 100%;
+
+    overflow: hidden;
+}
+
+#gnomad-logo
+{
+    width: 25%;
+
+    height: 50%;
+}
+
+#gnomad-logo img
+{
+    width: 100%;
+
+    aspect-ratio: 1;
+}
+
+#cancel-button
+{
+    width: 100%;
+}
+
+#author-section
+{
+    margin-top: 90px;
+}

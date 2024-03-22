@@ -1,0 +1,114 @@
+#route-creator 
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+  
+    width: min(800px, 90%);
+    height: min(500px, 90%);
+  
+    padding: 10px;
+    border-radius: 4px;
+  
+    background: var(--gradient-background);
+    color: var(--primary-foreground);
+    z-index: 999;
+}
+
+#route-pins-picker 
+{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    gap: 10px;
+}
+
+.split-section 
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+    height: 100%;
+
+    overflow: hidden;
+} 
+
+#search-pins-list-wrapper 
+{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+#route-creator-section
+{
+    height: 100%;
+    overflow: hidden;
+}
+
+#pins-search-results 
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 4px;
+
+    overflow: hidden;
+}
+
+.pins-list 
+{
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+    height: 100%;
+    border-radius: 4px;
+    background-color: var(--secondary-background);
+    color: var(--secondary-foreground);
+
+    overflow-y: scroll;
+}
+
+.list-item
+{
+    padding: 10px;
+}
+
+#search-pins-list li:hover 
+{
+    background-color: var(--secondary-background-accent);
+}
+
+.result-pin
+{
+    display: flex;
+    gap: 10px;
+    
+    align-items: center;
+}
+
+.add-pin-title
+{
+    width: 100%;
+}   
+
+.add-pin-button
+{
+    height: 2em;
+    aspect-ratio: 1;
+
+    background-color: var(--primary-background);
+    color: var(--primary-foreground);
+
+    border: none;
+    border-radius: 4px;
+}
+
+.add-pin-button:hover
+{
+    background-color: var(--primary-background-accent);
+}

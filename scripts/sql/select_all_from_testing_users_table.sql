@@ -1,0 +1,1 @@
+SELECT * FROM codenome_testing.users;

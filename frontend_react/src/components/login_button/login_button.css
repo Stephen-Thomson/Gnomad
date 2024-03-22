@@ -1,0 +1,22 @@
+.user-button {
+  padding: 5px;
+  margin-right: 10px;
+
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 4px;
+
+  color: #FEE9E1;
+
+  cursor: pointer;
+}
+
+.user-button:hover {
+  background-color: #B09E99;
+}
+
+.g_id_signin {
+  display: flex;
+  width: 100px !important;
+  background-color: transparent;
+} 

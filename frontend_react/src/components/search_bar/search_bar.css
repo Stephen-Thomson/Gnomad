@@ -1,0 +1,36 @@
+.search-bar-wrapper
+{
+    display: flex;
+    gap: 10px;
+}
+
+.search-bar-input
+{
+    width: 100%;
+
+    background-color: var(--secondary-background);
+    border: none;
+    border-radius: 4px;
+}
+
+.search-bar-button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+    margin: 0;
+    height: 2em;
+    aspect-ratio: 1;
+
+    background-color: var(--secondary-background);
+    border: none;
+    border-radius: 4px;
+}
+
+.search-bar-button:hover
+{
+    background-color: var(--secondary-background-accent);
+    cursor: pointer;
+}

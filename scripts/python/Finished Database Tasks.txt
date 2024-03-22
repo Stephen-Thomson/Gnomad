@@ -1,0 +1,6 @@
+Done with Database (For Commits)
+
+Testing Pins table deleted and remade to correct the Latitude and Longitude columns.
+
+Raw bathroom and wifi data downloaded and inserted in testing database.
+

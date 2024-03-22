@@ -1,0 +1,18 @@
+#pin-creator {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+  
+    width: 500px;
+  
+    padding: 10px;
+    border-radius: 4px;
+  
+    background: var(--gradient-background);
+    color: var(--primary-foreground);
+    z-index: 999;
+  }
+

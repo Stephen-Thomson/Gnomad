@@ -1,0 +1,46 @@
+:root {
+  --primary-background: #64b6ac;
+  --primary-background-accent: #4a8f87;
+  --primary-foreground: #fee9e1;
+  --primary-foreground-hover: #b09e99;
+
+  --secondary-background: #fee9e1;
+  --secondary-background-accent: #b09e99;
+  --secondary-foreground: #111;
+
+  --gradient-background: linear-gradient(#64b6ac, #64b68a);
+
+  --toggle-background: rgb(22, 136, 154);
+
+  background-color: var(--secondary-background);
+
+  user-select: none;
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+
+body {
+  margin: 0;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  overflow: hidden;
+}
+
+.text-input {
+  border: none;
+
+  width: calc(100% - 10px);
+
+  padding: 2px 5px;
+
+  border-radius: 4px;
+  height: 2em;
+
+  background-color: var(--secondary-background);
+  color: var(--secondary-foreground);
+}

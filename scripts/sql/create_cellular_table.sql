@@ -1,0 +1,17 @@
+CREATE TABLE IF NOT EXISTS `codenome_db`.`oregon_cellular_coords` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `centerLatitude` FLOAT NULL,
+  `centerLongitude` FLOAT NULL,
+  `latitude1` FLOAT NULL,
+  `longitude1` FLOAT NULL,
+  `latitude2` FLOAT NULL,
+  `longitude2` FLOAT NULL,
+  `latitude3` FLOAT NULL,
+  `longitude3` FLOAT NULL,
+  `latitude4` FLOAT NULL,
+  `longitude4` FLOAT NULL,
+  `latitude5` FLOAT NULL,
+  `longitude5` FLOAT NULL,
+  `latitude6` FLOAT NULL,
+  `longitude6` FLOAT NULL,
+  PRIMARY KEY (`id`));
